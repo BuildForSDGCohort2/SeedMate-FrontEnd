@@ -1,0 +1,34 @@
+#header{
+    width: 20%;
+
+    position:absolute;
+    float: left;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    
+}
+#header button{
+    color:#009900;
+    font-size:large;
+    height:3%;
+    background-color:inherit;
+    border:none;
+    margin: 10% 0% 10% 0%;
+
+}
+#landing{
+    color:#009900;
+    display:flex;
+    background-color: #e6ffe6;
+    height: 100vh;
+    width:80%;
+    float:right;
+}
+#l-text_area{
+    position: relative;
+    top: 35%;
+    left:10%;
+}
