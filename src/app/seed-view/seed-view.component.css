@@ -1,0 +1,16 @@
+.seeds{
+    margin:100px 0;
+    height:35vh;
+    width:60vh;
+    display:flex;
+    border: 2px solid #009900;
+
+  }
+  .seeds p{
+    padding:5px;
+  }
+  #m-s-t{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+  }

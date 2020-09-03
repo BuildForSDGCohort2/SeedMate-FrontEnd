@@ -1,48 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
-#search{
-    width: 100vw;
-    top:0;
-    position:absolute;
-    height: auto;
-    display: flex;
-    flex-direction:row;
-    align-content: space-between;
-    justify-content: center;
-    background-color:#e6ffe6;
-    opacity:0.2;
-    transition-property: opacity 2s;
-
+#search {
+  width: 100vw;
+  top:0;
+  position:absolute;
+  height: auto;
+  display: flex;
+  flex-direction:row;
+  align-content: space-between;
+  justify-content: center;
+  background-color:#e6ffe6;
+  opacity:0.2;
+  transition-property: opacity 2s;
 }
-#search:hover{
-    opacity:1;
+#search:hover {
+  opacity:1;
 }
-#search button{
-    color:#009900;
-    font-size:large;
-    height:auto;
-    width:3%;
-    background-color:inherit;
-    border:none;
-    margin: 0% 10% 0% 10% ;
-
+#search button {
+  color:#009900;
+  font-size:large;
+  height:auto;
+  width:3%;
+  background-color:inherit;
+  border:none;
+  margin: 0% 10% 0% 10%;
 }
-#s-text{
-    width:10%;
-    border-right: 5px solid grey;
-    color:gray;
-
-
+#s-text {
+  width:10%;
+  border-right: 5px solid grey;
+  color:gray;
 }
 
-#s-prompt{
-
-    width:80%;
-
+#s-prompt {
+  width:80%;
 }
-#s-prompt input{
-    font-size:80px;
-    border:none;
+#s-prompt input {
+  font-size:80px;
+  border:none;
 }
-#s-img{
-    width:10%;
+#s-img {
+  width:10%;
 }
