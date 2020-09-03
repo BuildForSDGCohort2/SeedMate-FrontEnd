@@ -4,9 +4,9 @@ import { Template } from "../../seedTempl";
 import { SeedViewComponent } from "../../seed-view/seed-view.component";
 
 @Component({
-    selector: "app-main-app",
-    templateUrl: "./main-app.component.html",
-    styles: [`#search{
+        selector: "app-main-app",
+        templateUrl: "./main-app.component.html",
+        styles: [`#search{
     width: 100vw;
     top:0;
     position:absolute;
@@ -66,7 +66,7 @@ import { SeedViewComponent } from "../../seed-view/seed-view.component";
 
 
 `]
-    /*styleUrls: ['./main-app.component.css']*/
+        /*styleUrls: ['./main-app.component.css']*/
 })
 export class MainAppComponent {
   Sdta: Template = {

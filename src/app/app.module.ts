@@ -8,16 +8,16 @@ import { SeedViewComponent } from "./seed-view/seed-view.component";
 
 
 @NgModule({
-    declarations: [
-        AppComponent,
-        routingComponents,
-        SeedViewComponent
-    ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule
-    ],
-    providers: [ seedData],
-    bootstrap: [AppComponent]
+        declarations: [
+                AppComponent,
+                routingComponents,
+                SeedViewComponent
+        ],
+        imports: [
+                BrowserModule,
+                AppRoutingModule
+        ],
+        providers: [ seedData],
+        bootstrap: [AppComponent]
 })
 export class AppModule { }
