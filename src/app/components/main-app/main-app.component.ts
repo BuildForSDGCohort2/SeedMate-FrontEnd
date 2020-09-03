@@ -69,11 +69,11 @@ import { SeedViewComponent } from "../../seed-view/seed-view.component";
         /*styleUrls: ['./main-app.component.css']*/
 })
 export class MainAppComponent {
-  Sdta: Template = {
-  	Name: "Apple",
-  	SeedDepth: "4 mm",
-  	SeedSpacing: "10 cm",
-  	Season: "Summer"
+    Sdta: Template = {
+        Name: "Apple",
+        SeedDepth: "4 mm",
+        SeedSpacing: "10 cm",
+        Season: "Summer"
   };
   constructor(private SedTa:seedData) {
     
