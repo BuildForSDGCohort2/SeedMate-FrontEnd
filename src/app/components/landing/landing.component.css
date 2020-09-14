@@ -10,6 +10,10 @@
   justify-content: center;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 #header button {
   color: #009900;
   font-size: large;
@@ -69,9 +73,7 @@ footer h3 {
   text-decoration: underline;
 }
 
-button:hover {
-  cursor: pointer;
-}
+
 
 a {
   text-decoration: none;

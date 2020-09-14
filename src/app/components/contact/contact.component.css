@@ -19,15 +19,14 @@ form form {
   margin: 5vh 0;
 }
 
-form label, form input {
+form label,
+form input {
   margin-left: 5px;
   text-align: center;
   width: 19vw;
   font-size: x-large;
   display: block;
-    
 }
-
 #submit {
   margin-top: 5vh;
   width: 20vw;
