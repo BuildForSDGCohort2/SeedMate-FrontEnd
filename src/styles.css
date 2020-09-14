@@ -12,9 +12,11 @@
   opacity: 0.2;
   transition-property: opacity 2s;
 }
+
 #search:hover {
   opacity: 1;
 }
+
 #search button {
   color: #009900;
   font-size: large;
@@ -24,6 +26,7 @@
   border: none;
   margin: 0% 10% 0% 10%;
 }
+
 #s-text {
   width: 10%;
   border-right: 5px solid grey;
@@ -33,10 +36,12 @@
 #s-prompt {
   width: 80%;
 }
+
 #s-prompt input {
   font-size: 80px;
   border: none;
 }
+
 #s-img {
   width: 10%;
 }

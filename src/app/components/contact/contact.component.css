@@ -1,4 +1,4 @@
-body{
+body {
     background-color: aliceblue;
     height:100vh;
     display:flex;
@@ -6,18 +6,20 @@ body{
     justify-content: center;
     align-content: center;
 }
-form{
+
+form {
     background-color: white;
     position: relative;
     height:auto;
     width:20vw;
- 
     margin:auto;
 }
-form form{
+
+form form {
     margin:5vh 0;
 }
-form label, form input{
+
+form label, form input {
     margin-left:5px;
     text-align: center;
     width:19vw;
@@ -25,7 +27,8 @@ form label, form input{
     display:block;
     
 }
-#submit{
+
+#submit {
     margin-top:5vh;
     width:20vw;
 }

@@ -1,3 +1,4 @@
+
 #header {
   width: 20%;
   position: absolute;
@@ -6,9 +7,9 @@
   display: flex;
   flex-direction: column;
   align-content: space-between;
-  justify-content: center;
-    
+  justify-content: center; 
 }
+
 #header button {
   color: #009900;
   font-size: large;
@@ -16,8 +17,8 @@
   background-color: inherit;
   border: none;
   margin: 10% 0% 10% 0%;
-
 }
+
 #landing {
   color: #009900;
   display: flex;
@@ -26,14 +27,17 @@
   width: 80%;
   float: right;
 }
+
 #l-text_area {
   position: relative;
   top: 35%;
   left: 10%;
 }
+
 #m-text_area {
   text-align: left;
 }
+
 main { 
   color: #009900;
   display: flex;
@@ -44,8 +48,8 @@ main {
   height: 150vh;
   width: 100%;
   float: right;
-
 }
+
 footer {
   justify-content: space-evenly;
   width: 100%;
@@ -56,15 +60,19 @@ footer {
   display: flex;
   flex-direction: row;
 }
+
 footer ul {
   list-style-type: none;
 }
+
 footer h3 {
   text-decoration: underline;
 }
+
 button:hover {
   cursor: pointer;
 }
+
 a{
   text-decoration: none;
   color:#009900;
