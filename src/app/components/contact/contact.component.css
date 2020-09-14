@@ -1,34 +1,34 @@
 body {
-    background-color: aliceblue;
-    height:100vh;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+  background-color: aliceblue;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 form {
-    background-color: white;
-    position: relative;
-    height:auto;
-    width:20vw;
-    margin:auto;
+  background-color: white;
+  position: relative;
+  height: auto;
+  width: 20vw;
+  margin: auto;
 }
 
 form form {
-    margin:5vh 0;
+  margin: 5vh 0;
 }
 
 form label, form input {
-    margin-left:5px;
-    text-align: center;
-    width:19vw;
-    font-size: x-large;
-    display:block;
+  margin-left: 5px;
+  text-align: center;
+  width: 19vw;
+  font-size: x-large;
+  display: block;
     
 }
 
 #submit {
-    margin-top:5vh;
-    width:20vw;
+  margin-top: 5vh;
+  width: 20vw;
 }

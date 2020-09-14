@@ -1,10 +1,10 @@
 .seeds {
-    margin: 100px 0;
-    height: 35vh;
-    width: 60vh;
-    display: flex;
-    border: 2px solid #009900;
-  }
+  margin: 100px 0;
+  height: 35vh;
+  width: 60vh;
+  display: flex;
+  border: 2px solid #009000;
+}
 
 .seeds p {
   padding: 5px;
