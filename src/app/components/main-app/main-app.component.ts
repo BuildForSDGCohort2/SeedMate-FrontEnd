@@ -1,7 +1,7 @@
 import { Component} from "@angular/core";
 import { seedData } from "../../sdata.service";
 import { Template } from "../../seedTempl";
-import { SeedViewComponent } from "../../seed-view/seed-view.component";
+/*import { SeedViewComponent } from "../../seed-view/seed-view.component";*/
 
 @Component({
     selector: "app-main-app",
@@ -75,9 +75,10 @@ export class MainAppComponent {
         SeedSpacing: "10 cm",
         Season: "Summer"
     };
-    constructor(private SedTa:seedData) {
-    
+    constructor(public SedTa:seedData) {
+        SedTa;
     }
+    
   Seedta = this.SedTa.getData();
 
 }
