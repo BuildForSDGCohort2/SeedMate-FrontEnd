@@ -41,7 +41,7 @@ main {
   justify-content: space-evenly;
   align-content: center;
   background-color: #ffffff;
-  height: 200vh;
+  height: 150vh;
   width: 100%;
   float: right;
 
@@ -64,4 +64,8 @@ footer h3 {
 }
 button:hover {
   cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color:#009900;
 }
