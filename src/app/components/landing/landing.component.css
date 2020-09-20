@@ -60,17 +60,23 @@ footer {
   position: relative;
   bottom: 0;
   background-color: grey;
-  color: black;
+  color: rgb(58, 58, 58);
   display: flex;
   flex-direction: row;
 }
+
 
 footer ul {
   list-style-type: none;
 }
 
 footer h3 {
-  text-decoration: underline;
+  color:rgb(68, 68, 68);
+  /*text-decoration: underline;*/
+}
+
+footer li:hover, footer h3:hover {
+  color:black;
 }
 
 a {

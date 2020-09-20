@@ -1,14 +1,17 @@
 <body>
-    <form>
+    <form id="first-form">
+        <button type="reset" style="position: relative;border-radius:50%;">Home</button>
         <form>
-             <label for="fullname">Name</label>
-        <input id="fullname" placeholder="Fullname" required>
+            <label for="fullname"><b>Name</b></label>
+        <input id="fullname" type="text" placeholder="Fullname" required>
         </form>
-        <form>
-            <label for="email">Email</label>
+        <form id="email-f" >
+            <label id="email-label" for="email"><b>Email</b></label>
         <input id="email" type="email" placeholder="example@domain.com" required>
-        </form>
         <input id="submit" type="submit"  value="SEND" src="">
+        </form>
+        
     </form>
+    
     
 </body>

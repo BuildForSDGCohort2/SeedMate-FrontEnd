@@ -32,3 +32,11 @@ form input {
   margin-top: 5vh;
   width: 20vw;
 }
+
+#first-form {
+  padding: 10px 10% 10px 10%;
+}
+
+#email {
+  height: 10vh;
+}
