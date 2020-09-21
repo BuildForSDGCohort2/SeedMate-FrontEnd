@@ -96,18 +96,16 @@ a {
   color: inherit;
 }
 
-#m-text_area:nth-of-type(0) {
+#m-text_area:nth-of-type(1) {
   margin-left: 10%;
   text-align: left;
 }
 
-#m-text_area:nth-of-type(1) {
+#m-text_area:nth-of-type(2) {
   text-align: center;
 }
 
-#m-text_area h1 {
-  text-align: center;
-}
+
 
 @media screen and (max-width: 780px) {
   #header {
