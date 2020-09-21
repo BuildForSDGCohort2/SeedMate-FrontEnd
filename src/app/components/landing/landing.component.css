@@ -32,6 +32,11 @@ button:hover {
   float: right;
 }
 
+#landing p  {
+  width: 500px;
+  font-size: 20px;
+}
+
 #l-text_area {
   position: relative;
   top: 35%;
@@ -71,7 +76,7 @@ footer ul {
 }
 
 footer h3 {
-  color:rgb(68, 68, 68);
+  color: rgb(68, 68, 68);
   /*text-decoration: underline;*/
 }
 
@@ -83,3 +88,56 @@ a {
   text-decoration: none;
   color: #090;
 }
+
+#none {
+  border: none;
+  background: none;
+  font-size: inherit;
+  color: inherit;
+}
+
+@media screen and (max-width:780px) {
+  #header {
+    display: none;
+  }
+
+  #landing {
+    width: 100vw;
+    text-align: center;
+    justify-content: space-between;
+    float: none;
+  }
+
+  #l-text_area {
+    position: relative;
+    top: 35%;
+    left: 0;
+  }
+
+  #landing p{
+    width: inherit;
+  }
+
+  footer {
+    align-content: space-between;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background-color: grey;
+    color: rgb(58, 58, 58);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #m-text_area {
+    margin: 0% !important;
+    width: 90vw;
+    text-align: justify !important;
+  }
+
+  #m-text_area h1 {
+    text-align: center !important;
+  }
+}
+
