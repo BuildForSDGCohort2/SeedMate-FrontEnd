@@ -32,6 +32,11 @@ button:hover {
   float: right;
 }
 
+#landing p {
+  width: 500px;
+  font-size: 20px;
+}
+
 #l-text_area {
   position: relative;
   top: 35%;
@@ -60,7 +65,7 @@ footer {
   position: relative;
   bottom: 0;
   background-color: grey;
-  color: black;
+  color: rgb(58, 58, 58);
   display: flex;
   flex-direction: row;
 }
@@ -70,10 +75,77 @@ footer ul {
 }
 
 footer h3 {
-  text-decoration: underline;
+  color: rgb(68, 68, 68);
+}
+
+footer li:hover,
+footer h3:hover {
+  color: black;
 }
 
 a {
   text-decoration: none;
   color: #090;
 }
+
+#none {
+  border: none;
+  background: none;
+  font-size: inherit;
+  color: inherit;
+}
+
+#m-text_area:nth-of-type(1) {
+  margin-left: 10%;
+  text-align: left;
+}
+
+#m-text_area:nth-of-type(2) {
+  text-align: center;
+}
+
+@media screen and (max-width: 780px) {
+  #header {
+    display: none;
+  }
+
+  #landing {
+    width: 100vw;
+    text-align: center;
+    justify-content: space-between;
+    float: none;
+  }
+
+  #l-text_area {
+    position: relative;
+    top: 35%;
+    left: 0;
+  }
+
+  #landing p {
+    width: inherit;
+  }
+
+  footer {
+    align-content: space-between;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background-color: grey;
+    color: rgb(58, 58, 58);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #m-text_area {
+    margin: 0%;
+    width: 90vw;
+    text-align: justify;
+  }
+
+  #m-text_area h1 {
+    text-align: center;
+  }
+}
+

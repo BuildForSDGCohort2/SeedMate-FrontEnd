@@ -23,6 +23,11 @@ import { Template } from "../../seedTempl";
 #search:hover{
     opacity:1;
 }
+.material-icons {
+    font-size:80px; 
+    color:gray; 
+    opacity:0.4;
+}
 #search button{
     color:#009900;
     font-size:large;
@@ -40,6 +45,8 @@ import { Template } from "../../seedTempl";
 
 
 }
+
+
 
 #s-prompt{
 
@@ -64,7 +71,42 @@ import { Template } from "../../seedTempl";
   top: 100px;
 }
 
+input {
+    width:100%; 
+    height:100%;
+}
 
+@media screen and (max-width: 780px){
+    app-seed-view {
+        margin: 0% !important;
+    }
+
+    #main-cont{
+        height:55vh;
+    }
+
+    .material-icons {
+        font-size:40px; 
+    }
+
+    #s-text{
+        width:10%;
+        font-size: 10px;
+        border-right: none;
+    }
+    
+    input{
+        width:70%; 
+        height:50%;
+        margin-left: 50px;
+    }
+    
+    #search {
+        width: 90vw;
+        height: 10vh;
+        justify-content: space-between;
+    }
+}
 `]
     /*styleUrls: ['./main-app.component.css']*/
 })
