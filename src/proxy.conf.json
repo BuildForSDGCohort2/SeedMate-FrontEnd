@@ -1,0 +1,7 @@
+{
+    "/api/*": {
+        "target": "https://seedmate.herokuapp.com/",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}
