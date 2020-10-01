@@ -10,7 +10,9 @@ export class SeedViewComponent implements OnInit {
   @Input () seed:any;
 
   seeds:any;
-  constructor(private apiService: ApiService) { }
+  constructor(public apiService: ApiService) {
+      apiService;
+  }
 
   ngOnInit(): void {
       this.apiService.getSeeds().subscribe((data)=>{

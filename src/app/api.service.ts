@@ -6,7 +6,9 @@ import { HttpClient } from "@angular/common/http";
 })
 export class ApiService {
 
-    constructor(private httpClient:HttpClient) { }
+    constructor(private httpClient:HttpClient) { 
+        httpClient;
+    }
 
     public getSeeds(){
         return this.httpClient.get("https://seedmate.herokuapp.com/");
