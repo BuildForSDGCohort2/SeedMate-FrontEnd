@@ -22,6 +22,7 @@
         "@typescript-eslint/eslint-plugin": "^4.0.1",
         "@typescript-eslint/parser": "^4.0.1",
         "eslint": "^7.8.1",
+        "firebase-tools": "^8.11.2",
         "rxjs": "~6.5.5",
         "tslib": "^2.0.0",
         "typescript-eslint": "0.0.1-alpha.0",

@@ -6,7 +6,7 @@ import { AppComponent } from "./app.component";
 import { seedData } from "./sdata.service";
 import { SeedViewComponent } from "./seed-view/seed-view.component";
 import { ContactComponent } from "./components/contact/contact.component";
-
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
     declarations: [
@@ -17,7 +17,8 @@ import { ContactComponent } from "./components/contact/contact.component";
     ],
     imports: [
         BrowserModule,
-        AppRoutingModule
+        AppRoutingModule,
+        HttpClientModule
     ],
     providers: [ seedData],
     bootstrap: [AppComponent]

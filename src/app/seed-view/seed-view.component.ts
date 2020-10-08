@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from "@angular/core";
+import { ApiService } from "../api.service";
 
 @Component({
     selector: "app-seed-view",
@@ -7,9 +8,17 @@ import { Component, OnInit, Input } from "@angular/core";
 })
 export class SeedViewComponent implements OnInit {
   @Input () seed:any;
-  constructor() { }
+
+  seeds:any;
+  constructor(public apiService: ApiService) {
+      apiService;
+  }
 
   ngOnInit(): void {
+      this.apiService.getSeeds().subscribe((data)=>{
+          console.log(data);
+          this.seeds = data["0"];
+      });
   }
 
 }
